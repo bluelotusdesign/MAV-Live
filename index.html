@@ -39,8 +39,12 @@
 
         <div id="hero">
             <img class="desktop-logo" src="./img/MAV_Logo_Blue_Cropped.png" alt="MAV Logo">
-            
-            <video autoplay="true" muted="true" loop="true" class="hero-vid">
+            <!-- Safari can only display BG video as a BG image, so this div will house that way of displaying the video -->
+            <div class="safari-hero-vid">
+
+            </div>
+            <!-- Other browsers can just play the HTML video element -->
+            <video autoplay="true" muted="true" loop="true" class="hero-vid" playsinline>
                 <source src="./vid/mav hero vid.webm" type="video/webm">
             </video>
             <img src="./img/MAV Logo Large Transparent.png" alt="MAV Logo" class="logo-mask">

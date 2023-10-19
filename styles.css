@@ -242,7 +242,18 @@ section
     width: 100%;
     position: absolute;
     inset: 0;
-    z-index: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+.safari-hero-vid
+{
+    background-image: url("./vid/mav\ hero\ vid.webm");
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index:0;
     pointer-events: none;
 }
 #mat-intro
