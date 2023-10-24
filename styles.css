@@ -266,11 +266,12 @@ section
 .logo-mask
 {
     position: relative;
-    width: 100%;
+    width: 101%;
     z-index: 4;
 }
 .intro-container
 {
+    margin-top: -2px;
     padding-block: 30px;
     position: relative;
     z-index: 1;
