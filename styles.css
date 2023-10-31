@@ -2100,8 +2100,7 @@ iframe
         }
         .hero-vid
         {
-            /* width: 80%; */
-            left: 0;
+            left: -10%;
         }
         .intro-container
         {
