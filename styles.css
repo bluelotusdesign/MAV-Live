@@ -227,6 +227,11 @@ section
     transform: scale(1);
     transition: transform var(--hover-transition) ease-in-out;
 }
+.ig-button-img
+{
+    width: 36px;
+    height: auto;
+}
 
 
 /******** @intro section ********/
@@ -986,6 +991,11 @@ iframe
     .nav-link
     {
         font-size: 1rem;
+    }
+    .ig-button-img
+    {
+        width: 27px;
+        height: auto;
     }
 
 
@@ -2052,6 +2062,12 @@ iframe
         {
             font-size: clamp(1rem, 1.2vw, 4rem);
         }
+        .ig-button-img
+        {
+            width: 1.5vw;
+            height: auto;
+        }
+        
         section
         {
             scroll-margin: 7vh;
